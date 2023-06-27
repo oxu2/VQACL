@@ -7,7 +7,7 @@ output=snap/$name
 PYTHONPATH=$PYTHONPATH:./src \
 python -m torch.distributed.launch \
     --nproc_per_node=$1 \
-    --master_port 66663 \
+    --master_port 61663 \
     src/vqacl.py \
         --distributed --multiGPU \
         --train karpathy_train \

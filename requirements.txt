@@ -1,4 +1,5 @@
-torch==1.6.0
+# torch==1.6.0
+torch
 transformers==4.2.1
 sentencepiece
 h5py
@@ -7,11 +8,14 @@ tqdm
 numpy
 pandas
 matplotlib
+numpy
 pyyaml
 sacrebleu
 git+https://github.com/j-min/language-evaluation@master
-torchvision==0.7.0
+# torchvision==0.7.0
+torchvision
 wget
+packaging
 
 
 
